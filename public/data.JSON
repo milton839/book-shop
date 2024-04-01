@@ -1,0 +1,73 @@
+[
+    {
+        "id" : 1,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "5",
+        "price" : 60,
+        "isFavourite": false
+    },
+    {
+        "id" : 2,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "4",
+        "price" : 60,
+        "isFavourite": true
+    },
+    {
+        "id" : 3,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "3",
+        "price" : 60,
+        "isFavourite": false
+    },
+    {
+        "id" : 4,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "5",
+        "price" : 60,
+        "isFavourite": true
+    },
+    {
+        "id" : 5,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "2",
+        "price" : 60,
+        "isFavourite": false
+    },
+    {
+        "id" : 6,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "4",
+        "price" : 60,
+        "isFavourite": true
+    },
+    {
+        "id" : 7,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "5",
+        "isFavourite": false
+    },
+    {
+        "id" : 8,
+        "title" : "Javascript",
+        "image" : "/src/assets/book.png",
+        "author" : "Junayed Ahmed",
+        "review" : "5",
+        "price" : 60,
+        "isFavourite": false
+    }
+]
