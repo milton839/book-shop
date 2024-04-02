@@ -11,9 +11,16 @@ const BooksMarket = () => {
         .then(res=>res.json())
         .then(data=>setBooks(data))
     }, [])
+
+    const handleSearch = (searchBook) =>{
+        const filteredBook = books.filter((book) => book.title.toLowerCase() === searchBook.toLowerCase());
+        if (filteredBook) {
+            setBooks([...filteredBook])
+        }
+    }
   return (
     <main className="my-10 lg:my-14">
-      <SearchBook />
+      <SearchBook onSearch={handleSearch}/>
       <BooksList books = {books} />
     </main>
   )

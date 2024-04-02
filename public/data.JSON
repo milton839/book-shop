@@ -10,7 +10,7 @@
     },
     {
         "id" : 2,
-        "title" : "Javascript",
+        "title" : "React",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
         "review" : "4",
@@ -19,7 +19,7 @@
     },
     {
         "id" : 3,
-        "title" : "Javascript",
+        "title" : "Html",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
         "review" : "3",
@@ -28,7 +28,7 @@
     },
     {
         "id" : 4,
-        "title" : "Javascript",
+        "title" : "CSS",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
         "review" : "5",
@@ -46,7 +46,7 @@
     },
     {
         "id" : 6,
-        "title" : "Javascript",
+        "title" : "React",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
         "review" : "4",
@@ -63,7 +63,7 @@
     },
     {
         "id" : 8,
-        "title" : "Javascript",
+        "title" : "PHP",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
         "review" : "5",
