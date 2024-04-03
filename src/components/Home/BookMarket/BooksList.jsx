@@ -3,7 +3,7 @@
 import { FaStar } from 'react-icons/fa';
 import Rating from 'react-rating-stars-component';
 // eslint-disable-next-line react/prop-types
-const BooksList = ({ books }) => {
+const BooksList = ({ books, onFavourite }) => {
     const ratingChanged = (newRating) => {
         console.log(newRating);
       };
@@ -23,7 +23,7 @@ const BooksList = ({ books }) => {
                         </div>
                         {/* <!-- info --> */}
                         <div className="space-y-3">
-                            <h4 className="text-lg font-bold lg:text-xl">{book.title}</h4>
+                            <h4 className="text-lg font-bold lg:text-xl">{book.title}({book.publishYear})</h4>
                             <p className="text-xs lg:text-sm">By : <span>{book.author}</span></p>
                             <div className="flex items-center justify-between">
                                 <h4 className="text-lg font-bold lg:text-xl">${book.price}</h4>
@@ -62,6 +62,7 @@ const BooksList = ({ books }) => {
                                 </button>
                                 <button
                                     className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#1C4336]/[14%] py-1.5 text-[#1C4336] transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5"
+                                    onClick = {() => onFavourite(book.id)}
                                 >
                                     {
                                         book.isFavourite ? <FaStar color="red" /> : <FaStar color="black" />

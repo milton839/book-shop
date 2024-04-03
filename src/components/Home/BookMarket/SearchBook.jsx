@@ -1,11 +1,15 @@
 import { useState } from "react"
 
 // eslint-disable-next-line react/prop-types
-const SearchBook = ({onSearch}) => {
+const SearchBook = ({onSearch, onSort}) => {
     const [search, setSearch] = useState("");
     const handleSearch = (e) =>{
         e.preventDefault();
         onSearch(search)
+    }
+
+    const handleChange = (e) =>{
+        onSort(e.target.value)
     }
     return (
         <header className="mb-8 lg:mb-10 mx-auto max-w-7xl">
@@ -70,6 +74,7 @@ const SearchBook = ({onSearch}) => {
                         className="cursor-pointer rounded-md border px-4 py-2 text-center text-gray-600"
                         name="sortBy"
                         id="sortBy"
+                        onChange={handleChange}
                     >
                         <option value="">Sort</option>
                         <option value="name_asc">Name (A-Z)</option>

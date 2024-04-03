@@ -4,6 +4,7 @@
         "title" : "Javascript",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2024",
         "review" : "5",
         "price" : 60,
         "isFavourite": false
@@ -13,6 +14,7 @@
         "title" : "React",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2023",
         "review" : "4",
         "price" : 60,
         "isFavourite": true
@@ -22,6 +24,7 @@
         "title" : "Html",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2020",
         "review" : "3",
         "price" : 60,
         "isFavourite": false
@@ -31,6 +34,7 @@
         "title" : "CSS",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2015",
         "review" : "5",
         "price" : 60,
         "isFavourite": true
@@ -40,6 +44,7 @@
         "title" : "Javascript",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2010",
         "review" : "2",
         "price" : 60,
         "isFavourite": false
@@ -49,6 +54,7 @@
         "title" : "React",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2022",
         "review" : "4",
         "price" : 60,
         "isFavourite": true
@@ -58,6 +64,7 @@
         "title" : "Javascript",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2021",
         "review" : "5",
         "isFavourite": false
     },
@@ -66,6 +73,7 @@
         "title" : "PHP",
         "image" : "/src/assets/book.png",
         "author" : "Junayed Ahmed",
+        "publishYear" : "2019",
         "review" : "5",
         "price" : 60,
         "isFavourite": false
